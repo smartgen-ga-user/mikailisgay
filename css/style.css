@@ -1,0 +1,92 @@
+h1{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font: Helvetica;
+  line-height: 80px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 0;
+
+  /* new stuff below  */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  background: linear-gradient(to bottom, white, azure);
+}
+
+section {
+  padding: 10px;
+  max-width: 960px;
+  margin: auto;
+  background-color: white;
+}
+
+footer {
+  padding: 10px;
+  border-top: 2px dashed goldenrod;
+  text-align: center;
+}
+
+.alternate-color {
+  color: orange;
+}
+
+.main-header {
+  height: 230px;
+  background-image: url("https://pp.vk.me/c633928/v633928765/1652b/Ed3GcMdwIcA.jpg");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.intro {
+  font-size: 1.4em;
+  text-align: center;
+  padding: 20px;
+}
+
+.section-header {
+  height: 200px;
+  border-top: 3px solid grey;
+  background-image: url("https://jacobhullnet.files.wordpress.com/2016/05/u8721vm9p9c2v1o6ckj4qengqne7iotqgzi-vtdwytbeimacioxxpgk8bpesly9ppjivb5iww2-452kam8helsrglegarrzbxu94o6qrgeipdv0kubqvuthrtbwdgzwtllz5kvdjn5r6jkigkp8dutkdwz95sokidl9ira.jpeg?w=1140");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link-item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5px;
+  padding: 5px;
+  background-color: lightgrey;
+  letter-spacing: 0.3em;
+  color: goldenrod;
+  text-decoration: none;
+  transition: all 1s;
+}
+.link-item:hover {
+  background-color: PaleGoldenRod;
+}
